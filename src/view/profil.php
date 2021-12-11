@@ -22,7 +22,7 @@ if (isset($alertEchec) && $alertEchec === 'echec'){?>
     <h5 class="card-title"><?php echo $user->getName()." ".$user->getPrenom()  ; ?></h5>
     <p class="card-text">Vous pouvez acceder à votre bibliotheque ou changer vos informations.</p>
     <a href="index.php?route=maBibliotheque"><button type="button" class="btn btn-outline-danger">Ma Bibliotheque</button></a>
-    <button type="button" class="btn my-3" style="color:#694E8F;border-color:#B07DF4"  data-bs-toggle="modal" data-bs-target="#changerFenetre">
+    <button type="button" class="btn btn-outline-dark my-3"  data-bs-toggle="modal" data-bs-target="#changerFenetre">
     Changer mes informations</button>
     <div class="modal fade" id="changerFenetre" tabindex="-1" aria-labelledby="ChangementUser" aria-hidden="true">
         <div class="modal-dialog">
