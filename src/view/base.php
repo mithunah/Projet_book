@@ -2,9 +2,8 @@
 
 <html>
     <head>
-      <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
-        <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="assets/vendorb/bootstrap.min.css">
+        <script src="assets/vendorb/bootstrap.bundle.min.js"></script>
 </head>
     <body>
 
